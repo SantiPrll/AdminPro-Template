@@ -13,6 +13,8 @@ import { Graficas1Component } from "./graficas1/graficas1.component";
 import { IncrementComponent } from "../components/increment/increment.component";
 import { GraphDoughnutComponent } from "../components/graph-doughnut/graph-doughnut.component";
 import { AccountSettingComponent } from "./account-setting/account-setting.component";
+import { PromiseComponent } from './promise/promise.component';
+import { ObservableComponent } from './observable/observable.component';
 
 @NgModule({
   imports: [
@@ -29,7 +31,9 @@ import { AccountSettingComponent } from "./account-setting/account-setting.compo
     Graficas1Component,
     AccountSettingComponent,
     IncrementComponent,
-    GraphDoughnutComponent
+    GraphDoughnutComponent,
+    PromiseComponent,
+    ObservableComponent
   ],
   exports: [
     PagesComponent,

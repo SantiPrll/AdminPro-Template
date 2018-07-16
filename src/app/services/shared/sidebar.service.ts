@@ -11,7 +11,9 @@ export class SidebarService {
       subMenu: [
         { title: "Dashboard", icon: "", path: "/dashboard" },
         { title: "Progress Bar", icon: "", path: "/progress" },
-        { title: "Graph", icon: "", path: "/graph1" }
+        { title: "Graph", icon: "", path: "/graph1" },
+        { title: "Promise", icon: "", path: "/promise" },        
+        { title: "Obsevable", icon: "", path: "/observable" }
       ]
     }
   ];
